@@ -27,13 +27,7 @@ function setup() {
 	
 	dustbin3=Bodies.rectangle(340, 650, 200, 20, {isStatic:true});
 	fill(255);
-
-	class paper{
-	var options = {
-        isStatic: false, restitution: 0.3, friction: 0.5, density: 1.2
-    }
-}
-
+	
 	Engine.run(engine);
   
 }
