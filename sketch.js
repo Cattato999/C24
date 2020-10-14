@@ -17,16 +17,6 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	dustbin1=Bodies.rectangle(250, 610, 20, 100, {isStatic:true});
-	fill(255);
-	World.add(world, boxSprite1);
-
-	dustbin2=Bodies.rectangle(430, 610, 20, 100, {isStatic:true});
-	fill(255);
-	World.add(world, boxSprite2);
-	
-	dustbin3=Bodies.rectangle(340, 650, 200, 20, {isStatic:true});
-	fill(255);
 	
 	Engine.run(engine);
   
