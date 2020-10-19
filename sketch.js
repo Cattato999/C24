@@ -29,7 +29,7 @@ function draw() {
   dustbin1.display();
   dustbin2.display();
   dustbin3.display();
-  
+  paper.display()
   drawSprites();
  
 }
